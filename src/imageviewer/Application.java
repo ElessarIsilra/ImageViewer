@@ -52,7 +52,7 @@ public class Application extends JFrame {
     }
 
     private Image image() {
-        return new FileImageReader("/Users/Goretti/Pictures").read();
+        return new FileImageReader("C:\\Users\\Public\\Pictures\\Sample Pictures").read();
     }
 
     private Component toolbar() {
